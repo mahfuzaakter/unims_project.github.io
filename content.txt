@@ -1,0 +1,9 @@
+theme-color: #0069D9;
+Body_color:  #0F1638;
+body-font: Roboto;
+heading Font Oxygen;
+
+
+B.Sc in Computer science & Engineering(CSE)
+B.sc in Information & communication Engineering(ICE)
+B.sc in Software Engineering(SWE)
