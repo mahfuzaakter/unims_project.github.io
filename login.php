@@ -1,4 +1,3 @@
-
 <?php 
 session_start();
 
@@ -6,7 +5,7 @@ if (isset($_POST['uname']) &&
     isset($_POST['pass']) &&
     isset($_POST['role'])) {
 
-	include "../DB_connection.php";
+	include "../db_connection.php";
 	
 	$uname = $_POST['uname'];
 	$pass = $_POST['pass'];
@@ -55,7 +54,7 @@ if (isset($_POST['uname']) &&
             		$_SESSION['fname'] = $fname;
             		$_SESSION['role'] = $role;
             		
-				    header("Location: ../admin/index.php");
+				    header("Location: ../home.php");
 				    exit;
             	}else {
 		        	$em  = "Incorrect Username or Password";

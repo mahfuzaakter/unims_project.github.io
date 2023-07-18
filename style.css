@@ -1,0 +1,149 @@
+/**
+*template name: university management system
+*version:1.0
+**/
+/* GOOGle FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+/*font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding:0;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+}
+p{
+    margin:  0;
+    padding: 0;
+    color: #0f1638;
+}
+
+#homeNav {
+	background: rgba(255,255,255, 0.5) !important;
+}
+.btn-white{
+   border-color: var(--white);
+}
+.btn-white{
+   background:  var(--theme-color);
+   color: var(--white);
+   border: var(--theme-color);
+}
+
+.body-home, .body-login {  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color:#0f1638;
+    background: url(../image/new.png);
+    background-size:cover ;
+    background-attachment: fixed;
+    background-color: pink;  
+  }
+  .black-fill {
+     background: rgba(0,0,0, 0.7);
+     min-height: 100vh;
+  }  
+  button {   
+         background-color: #4CAF50;   
+         width: 100%;  
+          color: orange;   
+          padding: 15px;   
+          margin: 10px 0px;   
+          border: none;   
+          cursor: pointer;   
+           }   
+   form {   
+          border: 3px solid #f1f1f1;   
+      }   
+   input[type=text], input[type=password] {   
+          width: 50%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 2px solid green;   
+          box-sizing: border-box;   
+      }  
+   button:hover {   
+          opacity: 0.7;   
+      }   
+    .cancelbtn {   
+          width: auto;   
+          padding: 10px 18px;  
+          margin: 10px 5px;  
+      }   
+    #contact {
+      min-height: 100vh;
+    }
+    #contact form{
+      max-width: 600px;
+      width: 90%;
+      background: rgba(255,255,255, 0.5);
+    }
+    textarea{
+      resize: none;
+    }
+
+   .logim{
+      max-width: 500px;
+      width: 90%;
+      background: rgba(255,255,255, 0.5);
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .login h3{
+      text-align: center;
+      font-size: 50px;
+   }
+   .w-450 {
+      width: 450px;
+   }
+       
+   .container {   
+          padding:10px;   
+          background-color: lightblue; 
+         }
+         .py-5{
+            padding-top: 5px;
+            padding-bottom: 10px;
+         }
+         .py-10{
+            padding: 10px;
+            padding-bottom: 10px;
+         }
+         .py-15{
+            padding: 15px;
+            padding-bottom: 15px;
+         }
+         .py-20{
+            padding: 20px;
+            padding-bottom: 20px;
+
+         }
+         .py-25{
+            padding: 25px;
+            padding-bottom: 25px;
+         }
+         .py-30{
+            padding: 30px;
+            padding-bottom: 30px;
+         }
+         .py-35{
+            padding: 35px;
+            padding-bottom: 35px;
+         }
